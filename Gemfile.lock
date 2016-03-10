@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    warren_ipsum (0.1.1)
+    riley_ipsum (0.1.1)
 
 GEM
   remote: https://rubygems.org/
@@ -22,8 +22,8 @@ PLATFORMS
 
 DEPENDENCIES
   rake
+  riley_ipsum!
   rspec (~> 2.14.0)
-  warren_ipsum!
 
 BUNDLED WITH
-   1.10.6
+   1.11.2

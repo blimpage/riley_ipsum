@@ -1,4 +1,4 @@
-module WarrenIpsum
+module RileyIpsum
   class Base
     DEFAULT_NUMBER_OF_LINES = 1
 

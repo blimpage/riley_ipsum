@@ -1,6 +1,6 @@
-module WarrenIpsum
+module RileyIpsum
   class Data
-    DATA_FILE = File.join(File.dirname(__FILE__), '../../data/warren.txt')
+    DATA_FILE = File.join(File.dirname(__FILE__), '../../data/riley.txt')
 
     def random_line
       source[random_index]

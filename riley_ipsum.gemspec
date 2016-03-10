@@ -1,16 +1,16 @@
 $:.push File.expand_path("../lib", __FILE__)
 
-require 'warren_ipsum/version'
+require 'riley_ipsum/version'
 
 Gem::Specification.new do |s|
-  s.name        = 'warren_ipsum'
-  s.version     = WarrenIpsum::VERSION
+  s.name        = 'riley_ipsum'
+  s.version     = RileyIpsum::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Sebastian von Conrad', 'Tom Bryan']
   s.email       = ['sebastian@vonconrad.com', 'hello@tombryan.co']
-  s.homepage    = 'http://github.com/vonconrad/warren_ipsum'
-  s.summary     = %q{Warren is a sensible Rails developer with good hair}
-  s.description = %q{One time at RailsCamp Warren stayed up until like 10pm going crazy sick on some code it was so fun OMG you should've been there just wild man}
+  s.homepage    = 'http://github.com/vonconrad/riley_ipsum'
+  s.summary     = %q{Riley is a sensible Rails developer with good hair}
+  s.description = %q{One time at RailsCamp Riley stayed up until like 10pm going crazy sick on some code it was so fun OMG you should've been there just wild man}
   s.license     = 'MIT'
 
   s.required_ruby_version = '~> 2.0'

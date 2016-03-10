@@ -1,6 +1,0 @@
-#!/usr/bin/env ruby
-
-require 'warren_ipsum'
-
-puts WarrenIpsum.generate(:lines => (0..10).to_a.sample)
-

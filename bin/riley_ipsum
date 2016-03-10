@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'riley_ipsum'
+
+puts RileyIpsum.generate(:lines => (0..10).to_a.sample)

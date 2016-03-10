@@ -1,25 +1,25 @@
 require 'spec_helper'
 
-describe WarrenIpsum::Base do
+describe RileyIpsum::Base do
   let(:line) { 'actual LOL' }
-  let(:data) { WarrenIpsum::Data }
+  let(:data) { RileyIpsum::Data }
 
   describe '#generate' do
-    subject(:warren_ipsum) { WarrenIpsum::Base.new }
+    subject(:riley_ipsum) { RileyIpsum::Base.new }
 
     before do
       allow(data).to receive(:new).and_return(double(:random_line => line))
     end
 
     it 'generates a line from data with a period at the end' do
-      expect(warren_ipsum.generate).to eql('actual LOL.')
+      expect(riley_ipsum.generate).to eql('actual LOL.')
     end
 
     context 'when multiple lines are requested' do
-      subject(:warren_ipsum) { WarrenIpsum::Base.new(:lines => 3) }
+      subject(:riley_ipsum) { RileyIpsum::Base.new(:lines => 3) }
 
       it 'generates multiple lines, separated by comma' do
-        expect(warren_ipsum.generate).to eql('actual LOL, actual LOL, actual LOL.')
+        expect(riley_ipsum.generate).to eql('actual LOL, actual LOL, actual LOL.')
       end
     end
   end

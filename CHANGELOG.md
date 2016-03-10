@@ -1,4 +1,4 @@
-* Added a warren_ipsum executable.
+* Added a riley_ipsum executable.
 
   *seangeo*
 
