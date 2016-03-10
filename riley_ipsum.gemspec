@@ -6,11 +6,11 @@ Gem::Specification.new do |s|
   s.name        = 'riley_ipsum'
   s.version     = RileyIpsum::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ['Sebastian von Conrad', 'Tom Bryan']
-  s.email       = ['sebastian@vonconrad.com', 'hello@tombryan.co']
-  s.homepage    = 'http://github.com/vonconrad/riley_ipsum'
-  s.summary     = %q{Riley is a sensible Rails developer with good hair}
-  s.description = %q{One time at RailsCamp Riley stayed up until like 10pm going crazy sick on some code it was so fun OMG you should've been there just wild man}
+  s.authors     = ['Sebastian von Conrad', 'Tom Bryan', 'Pat McKenna']
+  s.email       = ['sebastian@vonconrad.com', 'hello@tombryan.co', 'pat@mckenna.rocks']
+  s.homepage    = 'http://github.com/blimpage/riley_ipsum'
+  s.summary     = %q{Riley is an unknowable enigma with many plaid shirts}
+  s.description = %q{One time while playing pong Riley quoted like 7 obscure podcasts that nobody has ever heard of it was so fun OMG you should've been there just wild man}
   s.license     = 'MIT'
 
   s.required_ruby_version = '~> 2.0'
