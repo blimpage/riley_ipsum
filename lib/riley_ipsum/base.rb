@@ -12,10 +12,24 @@ module RileyIpsum
         @data.random_line
       end
 
-      lines.join(', ') + '.'
+      punctuated_lines(lines).join(' ')
     end
 
     private
+
+    def punctuated_lines(lines)
+      last_line_index = lines.size - 1
+
+      lines.map.with_index do |line, index|
+        if line =~ /(\.|,|!|\?)$/
+          line
+        elsif index == last_line_index
+          line + '.'
+        else
+          line + ','
+        end
+      end
+    end
 
     def load_data_source
       File.expand_path("../../bin", "/tmp/x")
